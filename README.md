@@ -11,14 +11,14 @@ F2 Settings (before installing):
 - Secure Boot Enable: Disabled
 - Intel SGX Enable: Disabled
 - HyperThread control: Enabled (this will only show for Core i7 users)
-- (6700K only) Fan Control Override: Check - this will improve thermals
+- (6700K only) Fan Control Override: Check - this will improve thermals (Optional, very loud)  
 
-How to install (This is assuming you have a macOS computer available, whether a real Mac or an existing Hackintosh):
-- Create a macOS install USB.
+How to install:
+- Create a macOS install USB. Follow the Dortania guide on how to do this until you reach "Adding The Base OpenCore Files".  
 - Use MountEFI to mount the EFI partition if on macOS.
 - Use GenSMBIOS to create an iMac19,1 SMBIOS and flush it to the config.plist.
 - Drag and drop the EFI folder into the root folder of the EFI partition.
-- Press F12 upon seeing dell logo and select your USB stick.
+- Press F12 upon seeing the Dell logo and select your USB stick.
 
 Post-Installation:
 - Use MountEFI to mount both the macOS and USB EFI partition.
